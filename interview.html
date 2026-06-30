@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f6f78">
+    <title>Interview | English Life</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-page="interview">
+    <header class="app-header">
+      <a class="brand" href="dashboard.html"><span class="brand-mark">EL</span><span>English Life</span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="speaking.html">Speaking</a>
+        <a href="review.html">Review</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="page-title">
+        <p class="eyebrow">QA English</p>
+        <h1>Interview</h1>
+        <p>Practice concise answers for QA, automation, API testing, leadership and Tech Lead scenarios.</p>
+      </section>
+
+      <section class="panel">
+        <label class="field-label" for="interview-question">Question</label>
+        <select id="interview-question" class="input"></select>
+      </section>
+
+      <section class="panel">
+        <div data-recorder data-recorder-key="interview-answer" data-recorder-label="Interview answer"></div>
+      </section>
+    </main>
+
+    <script src="js/config.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/progress-service.js"></script>
+    <script src="js/speaking-recorder.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

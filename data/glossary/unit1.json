@@ -1,0 +1,21 @@
+{
+  "unit": "unit1",
+  "words": [
+    {
+      "english": "name",
+      "portuguese": "nome"
+    },
+    {
+      "english": "city",
+      "portuguese": "cidade"
+    },
+    {
+      "english": "job",
+      "portuguese": "trabalho"
+    },
+    {
+      "english": "hobby",
+      "portuguese": "passatempo"
+    }
+  ]
+}

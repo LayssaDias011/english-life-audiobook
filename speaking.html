@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f6f78">
+    <title>Speaking | English Life</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-page="speaking">
+    <header class="app-header">
+      <a class="brand" href="dashboard.html"><span class="brand-mark">EL</span><span>English Life</span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="lesson.html?id=1A">Lesson</a>
+        <a href="interview.html">Interview</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="page-title">
+        <p class="eyebrow">Voice practice</p>
+        <h1>Speaking</h1>
+        <p id="speaking-prompt">Record yourself saying your name, city, job and hobbies.</p>
+      </section>
+      <section class="panel">
+        <div data-recorder data-recorder-key="speaking-general" data-recorder-label="General speaking practice"></div>
+      </section>
+    </main>
+
+    <script src="js/config.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/progress-service.js"></script>
+    <script src="js/speaking-recorder.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

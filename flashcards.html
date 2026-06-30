@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f6f78">
+    <title>Flashcards | English Life</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-page="flashcards">
+    <header class="app-header">
+      <a class="brand" href="dashboard.html"><span class="brand-mark">EL</span><span>English Life</span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="lesson.html?id=1A">Lesson</a>
+        <a href="review.html">Review</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="page-title">
+        <p class="eyebrow">Glossary practice</p>
+        <h1>Flashcards</h1>
+      </section>
+      <section id="flashcard-root" class="flashcard-stage" aria-live="polite"></section>
+    </main>
+
+    <script src="js/config.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/progress-service.js"></script>
+    <script src="js/flashcard-engine.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

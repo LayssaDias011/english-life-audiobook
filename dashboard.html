@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f6f78">
+    <title>Dashboard | English Life</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-page="dashboard">
+    <header class="app-header">
+      <a class="brand" href="dashboard.html" aria-label="English Life home">
+        <span class="brand-mark">EL</span>
+        <span>English Life</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="lesson.html?id=1A">Lesson</a>
+        <a href="flashcards.html">Flashcards</a>
+        <a href="review.html">Review</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="page-title">
+        <p class="eyebrow">24-week study plan</p>
+        <h1>Dashboard</h1>
+        <p>Track your English routine, continue the latest lesson, and keep your QA interview practice moving.</p>
+      </section>
+
+      <section class="stats-grid" aria-label="Progress overview">
+        <article class="stat-card">
+          <span>Overall progress</span>
+          <strong id="overall-progress">0%</strong>
+          <div class="meter" aria-hidden="true"><span id="overall-progress-bar"></span></div>
+        </article>
+        <article class="stat-card">
+          <span>Current week</span>
+          <strong id="current-week">1</strong>
+          <small id="current-week-phase">Phase 1</small>
+        </article>
+        <article class="stat-card">
+          <span>Last lesson</span>
+          <strong id="last-lesson">1A</strong>
+          <small id="last-page">dashboard.html</small>
+        </article>
+        <article class="stat-card">
+          <span>Next task</span>
+          <strong id="next-task">Loading...</strong>
+        </article>
+      </section>
+
+      <section class="action-grid" aria-label="Study modules">
+        <a class="module-card" href="lesson.html?id=1A">
+          <span class="module-icon">L</span>
+          <h2>Lesson</h2>
+          <p>Open the dynamic lesson engine with vocabulary, grammar, listening, writing, speaking and review.</p>
+        </a>
+        <a class="module-card" href="flashcards.html">
+          <span class="module-icon">F</span>
+          <h2>Flashcards</h2>
+          <p>Practice glossary cards and save correct or missed answers locally.</p>
+        </a>
+        <a class="module-card" href="speaking.html">
+          <span class="module-icon">S</span>
+          <h2>Speaking</h2>
+          <p>Record, play and remove speaking practice audio with the browser recorder.</p>
+        </a>
+        <a class="module-card" href="review.html">
+          <span class="module-icon">R</span>
+          <h2>Review</h2>
+          <p>See the roadmap and connect weekly goals with English File units.</p>
+        </a>
+        <a class="module-card" href="interview.html">
+          <span class="module-icon">I</span>
+          <h2>Interview</h2>
+          <p>Practice common QA and Tech Lead interview prompts with recording support.</p>
+        </a>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <h2>This week</h2>
+          <a href="review.html">View roadmap</a>
+        </div>
+        <div id="week-summary" class="roadmap-list"></div>
+      </section>
+    </main>
+
+    <script src="js/config.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/progress-service.js"></script>
+    <script src="js/roadmap-engine.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

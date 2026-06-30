@@ -1,0 +1,54 @@
+{
+  "id": "1A",
+  "unit": "Unit 1A",
+  "title": "My name's Hannah, not Anna",
+  "audio": "audio/unit1/ef3e_elem_01a_1-02.mp3",
+  "vocabulary": [
+    {
+      "english": "name",
+      "portuguese": "nome"
+    },
+    {
+      "english": "city",
+      "portuguese": "cidade"
+    },
+    {
+      "english": "job",
+      "portuguese": "trabalho"
+    }
+  ],
+  "grammar": [
+    {
+      "topic": "Verb To Be",
+      "explanation": "Use am, is, are to talk about identity."
+    },
+    {
+      "topic": "Subject Pronouns",
+      "explanation": "Use I, you, he, she, it, we and they before the verb."
+    }
+  ],
+  "listening": [
+    {
+      "type": "gap-fill",
+      "instruction": "Listen and fill in the blanks.",
+      "items": [
+        {
+          "speaker": "Mike",
+          "text": "Hi. I'm Mike. What's your ____?",
+          "answer": "name"
+        }
+      ]
+    }
+  ],
+  "writing": {
+    "prompt": "Write 10 sentences introducing yourself."
+  },
+  "speaking": {
+    "prompt": "Record yourself saying your name, city, job and hobbies."
+  },
+  "review": [
+    "What is your name?",
+    "Where are you from?",
+    "What is your job?"
+  ]
+}
